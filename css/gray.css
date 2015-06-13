@@ -1,0 +1,19 @@
+.highlight { color: #4C4C4C }
+/**************************
+****** Home Section *******
+**************************/
+.coloroverlay { background: rgba(40, 40, 40, 0.7) }
+.btn-colored { background-color: #4C4C4C }
+.btn-colored:hover { background-color: #333333 }
+.btn-learn:hover,
+.btn-learn:focus { color: #212C3C }
+.btn-download { background-color: #212C3C }
+.btn-download:hover { color: #212C3C }
+
+#counter > .coloroverlay { background: rgba(40, 40, 40, 0.9) }
+#download > .coloroverlay { background: rgba(40, 40, 40, 0.9) }
+#about { background: #4C4C4C }
+#contactbtn { background: #212C3C }
+#contact { background: #212C3C }
+.socials li a:hover { color: #4C4C4C }
+.socials li a:hover { color: #4C4C4C }
