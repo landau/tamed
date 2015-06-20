@@ -1,39 +1,5 @@
-/*=======================
-Theme: Ebook Landing Page Template
-Author: JLP Media
-Email: jennpereira13@gmail.com / lianplameras@gmail.com
-Version: 1.0
-Date Created: September 16, 2014
-=======================
-CSS Style Structure
-- Import Fonts
-- General
-- Preloader
-- Home Section
-- Things that You will Learn
-- Subscription
-- Overview
-- Facts Counter
-- Reviews Section
-- Download
-- Other Books Section
-- Toggle Contact Section
-- Awards Section
-- Footer Section
-=======================*/
-
-
-/**************************
-****** Import Fonts *******
-**************************/
-
 @import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic);
 @import url(http://fonts.googleapis.com/css?family=Muli:300,400,400italic,300italic);
-
-/**************************
-********* General *********
-**************************/
-
 body, html {
   overflow-x: hidden;
   font-family: 'Muli', sans-serif;
@@ -44,21 +10,20 @@ body, html {
 html {
   font-size: 100%
 }
-body {
-  overflow: hidden;
-}
 *, *:after, *::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 @media (min-width:1200px) {
   .container {
     width: 1140px
   }
 }
+
 p {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   line-height: 1.625em;
   font-family: 'Muli', sans-serif;
   font-weight: 300;
@@ -79,9 +44,10 @@ h1, h2, h3 {
   -webkit-font-smoothing: antialiased;
 }
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 200;
   -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 10px #444;
 }
 h2 {
   font-size: 2.5rem;
@@ -97,10 +63,11 @@ h3 {
 }
 h4 {
   font-family: 'Muli', sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height: 1.625rem;
-  font-weight: 900;
+  font-weight: 600;
   -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 10px #444;
 }
 h5 {
   font-family: 'Muli', sans-serif;
@@ -176,18 +143,27 @@ a.btn {
   color: #000000;
 }
 
-/**************************
-****** Home Section *******
-**************************/
-
 #home {
   position: relative;
   z-index: 0;
   overflow: hidden;
   color: #ffffff;
+  background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: 95% 25%;
+  background-attachment: fixed;
+}
+#home p {
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+img.logo {
+  height: 40px
 }
 .coloroverlay {
-  height: 100%;
+  padding-top: 120px;
+  padding-bottom: 80px;
+  background: rgba(0, 90, 143, 0.9);
 }
 .btn-colored {
   padding: 15px 25px;
@@ -205,7 +181,7 @@ a.btn {
   -moz-transition: all .5s;
   transition: all .5s;
 }
-.btn-learn {
+.btn-buy {
   padding: 15px 25px;
   background-color: transparent;
   color: #ffffff;
@@ -215,24 +191,7 @@ a.btn {
   border-radius: 0px;
   border: 1px solid #ffffff;
 }
-.btn-learn:hover, .btn-learn:focus {
-  background-color: #ffffff;
-  color: #212C3C;
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  transition: all .5s;
-}
-.btn-download {
-  padding: 15px 25px;
-  background-color: #212C3C;
-  color: #ffffff;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 0px;
-  border: 1px solid transparent !important;
-}
-.btn-download:hover {
+.btn-buy:hover, .btn-buy:focus {
   background-color: #ffffff;
   color: #212C3C;
   -webkit-transition: all .5s;
@@ -258,14 +217,35 @@ a.btn {
   transition: all .5s;
 }
 
-/**************************
-**** About the Author ****
-**************************/
-
+.section-title {
+  text-align: center
+}
+@media (min-width: 768px) {
+  .dl-horizontal dt {
+    float: left;
+    width: 60px;
+    overflow: hidden;
+    clear: left;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+@media (min-width: 768px) {
+  .dl-horizontal dd {
+    margin-left: 80px
+  }
+}
+dt i.fa {
+  margin-top: 10px
+}
 #about {
   padding-top: 4.5rem;
   background: #2468A9;
   color: #ffffff;
+}
+#about img.img-responsive {
+  max-height: 400px;
 }
 .social-icons li {
   display: inline;
@@ -284,9 +264,6 @@ a.btn {
   -webkit-font-smoothing: antialiased;
 }
 
-/**************************
-****** Footer Section *****
-**************************/
 
 #footer {
   text-align: center;
@@ -308,3 +285,28 @@ a.btn {
 .socials li a:hover {
   color: #2468A9;
 }
+
+/** Add some gray **/
+.highlight { color: #4C4C4C }
+.coloroverlay { background: rgba(20, 20, 20, .45) }
+.btn-colored { background-color: #4C4C4C }
+.btn-colored:hover { background-color: #333333 }
+.btn-buy:hover,
+.btn-buy:focus { color: #212C3C }
+.btn-download { background-color: #212C3C }
+.btn-download:hover { color: #212C3C }
+#about { background: #4C4C4C }
+.socials li a:hover { color: #4C4C4C }
+.socials li a:hover { color: #4C4C4C }
+
+
+/** Add some purple **/
+.highlight { color: #8E65A9 }
+.btn-colored { background-color: #8E65A9 }
+.btn-colored:hover { background-color: #58396C }
+.btn-buy:hover,
+.btn-buy:focus { color: #212C3C }
+.btn-download { background-color: #212C3C }
+.btn-download:hover { color: #212C3C }
+#about { background: #8E65A9 }
+.socials li a:hover { color: #8E65A9 }
