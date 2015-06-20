@@ -337,7 +337,7 @@ dt i.fa {
   background-repeat: repeat;
 }
 #about .coloroverlay {
-  background-color: rgba(142,101,169, .75);
+  background-color: rgba(142,101,169, .70);
 }
 .socials li a:hover {
   color: #8E65A9
