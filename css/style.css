@@ -15,13 +15,11 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 @media (min-width:1200px) {
   .container {
     width: 1140px
   }
 }
-
 p {
   font-size: 0.85rem;
   line-height: 1.625em;
@@ -142,7 +140,6 @@ a.btn {
   background: #ffffff;
   color: #000000;
 }
-
 #home {
   position: relative;
   z-index: 0;
@@ -216,7 +213,6 @@ img.logo {
   -moz-transition: all .5s;
   transition: all .5s;
 }
-
 .section-title {
   text-align: center
 }
@@ -240,8 +236,6 @@ dt i.fa {
   margin-top: 10px
 }
 #about {
-  padding-top: 4.5rem;
-  background: #2468A9;
   color: #ffffff;
 }
 #about img.img-responsive {
@@ -263,8 +257,6 @@ dt i.fa {
   transition: all .5s;
   -webkit-font-smoothing: antialiased;
 }
-
-
 #footer {
   text-align: center;
   padding-bottom: 6.5rem;
@@ -287,26 +279,66 @@ dt i.fa {
 }
 
 /** Add some gray **/
-.highlight { color: #4C4C4C }
-.coloroverlay { background: rgba(20, 20, 20, .45) }
-.btn-colored { background-color: #4C4C4C }
-.btn-colored:hover { background-color: #333333 }
-.btn-buy:hover,
-.btn-buy:focus { color: #212C3C }
-.btn-download { background-color: #212C3C }
-.btn-download:hover { color: #212C3C }
-#about { background: #4C4C4C }
-.socials li a:hover { color: #4C4C4C }
-.socials li a:hover { color: #4C4C4C }
 
+.highlight {
+  color: #4C4C4C
+}
+.coloroverlay {
+  background: rgba(20, 20, 20, .45)
+}
+.btn-colored {
+  background-color: #4C4C4C
+}
+.btn-colored:hover {
+  background-color: #333333
+}
+.btn-buy:hover, .btn-buy:focus {
+  color: #212C3C
+}
+.btn-download {
+  background-color: #212C3C
+}
+.btn-download:hover {
+  color: #212C3C
+}
+#about {
+  background: #4C4C4C
+}
+.socials li a:hover {
+  color: #4C4C4C
+}
+.socials li a:hover {
+  color: #4C4C4C
+}
 
 /** Add some purple **/
-.highlight { color: #8E65A9 }
-.btn-colored { background-color: #8E65A9 }
-.btn-colored:hover { background-color: #58396C }
-.btn-buy:hover,
-.btn-buy:focus { color: #212C3C }
-.btn-download { background-color: #212C3C }
-.btn-download:hover { color: #212C3C }
-#about { background: #8E65A9 }
-.socials li a:hover { color: #8E65A9 }
+
+.highlight {
+  color: #8E65A9
+}
+.btn-colored {
+  background-color: #8E65A9
+}
+.btn-colored:hover {
+  background-color: #58396C
+}
+.btn-buy:hover, .btn-buy:focus {
+  color: #212C3C
+}
+.btn-download {
+  background-color: #212C3C
+}
+.btn-download:hover {
+  color: #212C3C
+}
+#about {
+  background-image: url('../img/knitting.png');
+  background-position: center center;
+  background-repeat: repeat;
+}
+#about .coloroverlay {
+  background-color: rgba(142,101,169, .75);
+}
+.socials li a:hover {
+  color: #8E65A9
+}
