@@ -45,7 +45,6 @@ h1 {
   font-size: 4rem;
   font-weight: 200;
   -webkit-font-smoothing: antialiased;
-  text-shadow: 1px 1px 10px #444;
 }
 h2 {
   font-size: 2.5rem;
@@ -53,11 +52,15 @@ h2 {
   margin-bottom: 1.7rem;
   font-weight: 200;
   -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 3px #8e65a9;
 }
 h3 {
   font-size: 1.2rem;
   line-height: 2.25rem;
   font-weight: 300;
+}
+h1, h4 {
+  text-shadow: 1px -1px 3px #444;
 }
 h4 {
   font-family: 'Muli', sans-serif;
@@ -65,7 +68,6 @@ h4 {
   line-height: 1.625rem;
   font-weight: 600;
   -webkit-font-smoothing: antialiased;
-  text-shadow: 1px 1px 10px #444;
 }
 h5 {
   font-family: 'Muli', sans-serif;
@@ -145,12 +147,13 @@ a.btn {
   z-index: 0;
   overflow: hidden;
   color: #ffffff;
+
   background-image: url('../img/bg.jpg');
   background-repeat: no-repeat;
-  background-position: 95% 25%;
+  background-position: 25% 49%;
   background-attachment: fixed;
 }
-#home p {
+#home p, #about p {
   font-weight: 400;
   font-size: 0.8rem;
 }
@@ -160,7 +163,7 @@ img.logo {
 .coloroverlay {
   padding-top: 120px;
   padding-bottom: 80px;
-  background: rgba(0, 90, 143, 0.9);
+  background: rgba(0, 90, 143, 0.6);
 }
 .btn-colored {
   padding: 15px 25px;
@@ -284,7 +287,7 @@ dt i.fa {
   color: #4C4C4C
 }
 .coloroverlay {
-  background: rgba(20, 20, 20, .45)
+  background: rgba(20, 20, 20, .65)
 }
 .btn-colored {
   background-color: #4C4C4C
