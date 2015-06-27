@@ -3,15 +3,15 @@
     height: 30px;
   }
   h1 {
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
   h4 {
-    font-size: 0.85rem;
-    line-height: 1rem;
+    font-size: 0.9rem;
+    line-height: 0.75rem;
   }
   p {
-    font-size: 0.70rem;
-    line-height: 1.425em;
+    font-size: 0.85rem;
+    line-height: 1.4em;
   }
   a.btn {
     margin: 10px 10px 0 0;
@@ -20,7 +20,7 @@
     padding: 15px 15px;
   }
   h2 {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     line-height: 2rem;
   }
   #download a.btn-learn {
@@ -54,8 +54,14 @@
     background-position: 37% 30%;
   }
   #home .coloroverlay {
-    padding-top: 80px;
+    padding-top: 20px;
     background: rgba(20, 20, 20, .55)
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
   }
   #about i.fa.fa-2x {
     padding: 0 2px;
@@ -66,6 +72,9 @@
   .space {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+  #about .coloroverlay {
+    padding-top: 60px;
   }
   #about img.img-responsive {
     max-height: 250px;

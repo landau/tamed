@@ -1,8 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic);
-@import url(http://fonts.googleapis.com/css?family=Muli:300,400,400italic,300italic);
+@import url(http://fonts.googleapis.com/css?family=Cinzel:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
 body, html {
   overflow-x: hidden;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   height: 100%;
   width: 100%;
   -webkit-font-smoothing: antialiased;
@@ -21,15 +21,15 @@ html {
   }
 }
 p {
-  font-size: 0.85rem;
-  line-height: 1.625em;
-  font-family: 'Muli', sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.5em;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
 a {
   font-size: 1em;
   line-height: 1.625rem;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   text-decoration: none;
 }
@@ -37,17 +37,18 @@ a:hover {
   text-decoration: none
 }
 h1, h2, h3 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Cinzel', Helvetica, serif;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
 }
 h1 {
-  font-size: 4rem;
-  font-weight: 200;
+  font-size: 5rem;
+  font-weight: 100;
   -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
 }
 h2 {
-  font-size: 2.5rem;
+  font-size: 3.25rem;
   line-height: 3.6rem;
   margin-bottom: 1.7rem;
   font-weight: 200;
@@ -63,14 +64,15 @@ h1, h4 {
   text-shadow: 1px -1px 3px #444;
 }
 h4 {
-  font-family: 'Muli', sans-serif;
-  font-size: 0.8rem;
-  line-height: 1.625rem;
-  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  line-height: 0.9rem;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
 }
 h5 {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 0.8125rem;
   line-height: 1rem;
   font-weight: 300;
@@ -154,8 +156,8 @@ a.btn {
   background-attachment: fixed;
 }
 #home p, #about p {
+  padding: 5px 0 0;
   font-weight: 400;
-  font-size: 0.8rem;
 }
 img.logo {
   height: 40px
